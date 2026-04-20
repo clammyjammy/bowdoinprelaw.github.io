@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(34, 3, 61, 0.961)),
+    url("./images/68cc2fd575fcb6601f4a2d2b_6543b91ea4c4dc45ba694207_64df823c214dc17b531397ee_64caa42744dcea3a7d00f23d_1654130361-bowdoin_college_header_2.jpeg");
+    background-position: 10%;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flexx {
+    display: flex;
+    position: relative;
+    justify-content:center;
+    background-color: rgb(59, 35, 77);
+    color:white;
+    width:100%;
+    align-items: center;
+}
+
+.navbar {
+    padding:5px;
+    margin: 5px;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+}
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+    display:grid;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    place-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover {
+    color:rgb(210, 150, 228);
+}
+
+.logo {
+    position:absolute;
+    left: 30px;
+}
+
+.logo img{
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    margin-left:30%;
+    max-width: 40%;
+}
+
+.title1 {
+    position: relative;
+    top: 10px;
+    margin-left: 8%;
+    margin-top: 30%;
+    color: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@keyframes slideIn {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0%); opacity: 1; }
+}
+
+.title2 {
+    position: relative;
+    top: -90px;
+    left: 80px;
+    font-size: 100px;
+    font-family: 'Ballet', cursive;
+    color: white;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
